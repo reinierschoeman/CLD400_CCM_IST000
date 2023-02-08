@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Reinier FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_CLD400_IST000TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_CLD400_IST000</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_CLD400_IST000</FUNCNAME>
+     <SHORT_TEXT>Reinier</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_SCARR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TY_SCARR</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_SCARR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
